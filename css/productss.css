@@ -1,0 +1,366 @@
+
+.product_list table{
+  margin: 2vh 3vh;
+  overflow-y: auto;
+  width: 90%;
+}
+.body{
+  background-color: #F1F1F1;
+}
+
+.product_list tr td{
+  text-align: center;
+  font-size: 2vh;
+}
+.product_list img{
+  margin: 1vh;
+}
+
+.table-allproduct img:hover{
+  transform: scale(1.1);
+}
+.table-allproduct tr td{
+  font-size: 2vw;
+  font-family: montserrat;
+  text-transform: capitalize;
+}
+
+.product_list p{
+  font-size: 1vw;
+  color: #B77A48;
+
+}
+.product_list td:nth-child(3){
+  font-size: 1.5vw;
+}
+body{
+  margin-left: 0;
+}
+.upper1 {
+  background-color: #fff;
+  border: none;
+  color: #000;
+  padding: 0 3vh;
+  display: grid;
+  grid-template-columns: 5% 65% 30%;
+  height: 9vh;
+}
+.upper1 span{
+  color: #B77A48;
+  font-size: 4vw;
+  font-family: 'Libre Baskerville', serif;
+}
+.upper1 button{
+  float: right;
+  border: 2px solid #BC8355;
+  background-color: transparent;
+  width: 25vh;
+  height: 4vh;
+  margin: 3vh;
+  border-radius: 10px;
+  font-size: 2vh;
+  color: #BC8355;
+}
+.upper1 button:hover{
+  transform: scale(1.1);
+}
+.top ul{
+  list-style-type: none;
+  background-color: #BC8355;
+  margin: 0;
+  height: 20px;
+  max-width: 100%;
+  padding-left: 4px;
+  padding-bottom: 30px;
+  overflow: visible;
+  width: 100%;
+  top: 2px;
+  z-index: 1;
+
+}
+
+
+.top li{
+  float: left;
+  font-family: Roboto-Regular,'Helvetica Neue',Helvetica,Tahoma,Arial,Sans-serif;;
+  margin: 0;
+  font-size: 0.9rem;
+}
+.top ul li:nth-child(4){
+  float: right;
+  padding-right: 4px;
+}
+.top li a{
+  padding-left: 10px;
+  padding-top: 6.5px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  text-decoration: none;
+  display: block;
+  color: #fff;
+  margin: 0;
+}
+.top-pa{
+  margin-top: 2vh;
+  width: 100%;
+}
+
+
+
+.logo{
+  border: none;
+
+  width: 100%;
+  height: 10%;
+
+}
+.logo img{
+  position: relative;
+  height: 9vh;
+  min-height: 50px;
+  width: 100%;
+
+  float: right;
+  margin-right: 1vh;
+}
+.searchbar{
+  margin: 3vh 20vh;
+}
+#myInput{
+  width: 100%;
+  height: 5vh;
+  box-sizing: border-box;
+  line-height: 1;
+  padding: 0 1.4vh;
+  margin: 0;
+  background-color: #EDDECF;
+
+  border: none;
+  border-radius: 5px;
+}
+#searchbtn{
+  width: 6.5%;
+  height: 6vh;
+  margin-left: 1px;
+  padding-left: 10px;
+  border: none;
+  background-image: url(../pictures/searchh.png);
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: center;
+  background-color: #B77A48;
+  border-radius: 5px;
+}
+#searchbtn:hover{
+  transform: scale(1.1);
+}
+
+li a:hover{
+  color: #000;
+}
+li:nth-last-child(1):hover{
+  color: #000;
+
+}
+.active{
+  background-color: #EEECE0;
+}
+.active:hover{
+  color: #F7B103;
+}
+.top{
+  border: none;
+  height: inherit;
+  margin: 0;
+  padding: 0;
+}
+.top img{
+  margin-top: 5%;
+  margin-left: 3%;
+  height: 70px;
+  width: 60px;
+}
+
+.mid button{
+  margin-top: 10%;
+  background-color: #F7B103;
+  height: 50px;
+  padding-left: 100px;
+  font-size: 0.9rem;
+
+}
+.mid{
+}
+.modal-upper button{
+  float: right;
+  background-color: transparent;
+  border: none;
+}
+.modal-upper button:hover{
+  transform: scale(1.3);
+}
+.modal-upper img{
+  margin-left: 44%;
+  height: inherit;
+  width: inherit;
+}
+.modal-body{
+
+}
+.inputs p{
+  font-size: 1.5vh;
+  margin: 2vh 0;
+}
+.inputs input{
+  margin: 1vh 5vh;
+  width: 80%;
+}
+.inputs input:nth-of-type(3){
+  background-color: #BC8355;
+  border-radius: 10px;
+  border: none;
+}
+.inputs input:nth-of-type(3):hover{
+  transform: scale(1.1);
+}
+.divider{
+  margin: 3vh 5vh;
+  display: grid;
+  grid-template-columns: 45% 5% 45%;
+  text-align: center;
+}
+.reg{
+  margin: 3vh 5vh;
+
+}
+
+
+
+.allproducts img{
+  height: 300px;
+  width: 250px;
+}
+.list{
+  display: grid;
+  grid-template-columns: 80% 20%;
+
+}
+
+.allproducts h1{
+  margin-left: 2vh;
+  text-align: center;
+  margin: 1vh 0;
+}
+.list select{
+  width: 20vh;
+  height: 4vh;
+  margin: 1vh 0;
+
+}
+.allproducts{
+  background: white;
+  margin: 0 20vh;
+  border-radius: 5px;
+}
+
+footer{
+  background-color: #303443;
+  width: 100%;
+  display: flex;
+  font-family: montserrat;
+}
+.footer{
+  display: grid;
+  grid-template-columns: 70% 20%;
+  border: none;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  overflow: visible;
+}
+.footer1{
+  padding: 20px 20px;
+  width: 100%;
+  text-align: justify;
+  color: #FFFFFF;
+  grid-column: auto;
+}
+.footer1 p{
+  font-size: 12px;
+  max-width: 70%;
+}
+.footer2{
+  width: 100%;
+  text-align: center;
+}
+.footer2 h1{
+  color: #B77A48;
+}
+.footer2 img{
+  padding-left: 20px;
+}
+
+footer hr{
+  background-color: #F7B103;
+  margin-left: 30px;
+  width: 100%;
+  border: none;
+}
+.footer3{
+  margin-left: 5%;
+  margin-top: 2%;
+}
+.footer3 img{
+  height: 50px;
+  width: 50px;
+}
+.footer3 p{
+  font-size: 16px;
+  font-family: montserrat;
+  color: white;
+  padding-left: 3px;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  height: 3.1vh;
+  background-color: transparent;
+  color: white;
+
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  z-index: 1;
+  float: right;
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: ;}

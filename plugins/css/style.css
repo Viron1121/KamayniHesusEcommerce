@@ -1,0 +1,96 @@
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
+
+
+.btn-theme
+{
+	color:#fff;
+	background: #033756;
+}
+.btn-theme:hover
+{
+	color:white;
+	opacity: 0.9;
+}
+.login-footer
+{
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   height: 20px;
+}
+.footer-login
+{
+   background-color: #055686;
+   background: -moz-linear-gradient(top, #608605 0%, #0b5603 100%);
+   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #608605), color-stop(100%, #033756));
+   background: -webkit-linear-gradient(top, #608605 0%, #0b5603 100%);
+   background: -o-linear-gradient(top, #608605 0%, #0b5603 100%);
+   background: -ms-linear-gradient(top, #608605 0%, #0b5603 100%);
+   background: linear-gradient(to bottom, #608605 0%, #0b5603 100%);
+    border-bottom: 1px solid #0b5603;
+   color:white;
+
+}
+.standard-font
+{
+   color:#000;
+   font-weight: 600;
+}
+.bg-color
+{
+   background-color: #055686;
+   background: -moz-linear-gradient(top, #055686 0%, #033756 100%);
+   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #055686), color-stop(100%, #033756));
+   background: -webkit-linear-gradient(top, #055686 0%, #033756 100%);
+   background: -o-linear-gradient(top, #055686 0%, #033756 100%);
+   background: -ms-linear-gradient(top, #055686 0%, #033756 100%);
+   background: linear-gradient(to bottom, #055686 0%, #033756 100%);
+   color:white;
+}
+.main-footer
+{
+   position:absolute;
+   bottom:0;
+   display:block;
+}
+.main-logo
+{
+   display: block;
+   width: 100%;
+}
+.news-announcement-row
+{
+  margin-top:10px;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 768px) {
+   .main-logo
+   {
+      display: block;
+      width: 250px;
+      margin-left: auto;
+      margin-right: auto;
+   }
+   .video-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+}
+@media only screen and (max-width: 1024px) {
+   .main-logo
+   {
+      display: block;
+      width: 250px;
+      margin-left: auto;
+      margin-right: auto;
+   }
+}
